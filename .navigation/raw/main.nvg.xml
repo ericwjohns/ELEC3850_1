@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.navigation.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <entry>
+      <key      
+        class = "com.android.navigation.ActivityState"      
+        className = "com.example.ericjohns.elec3850_1.Activity_Main">
+        <location        
+          id = "point0"        
+          x = "0"        
+          y = "0"/>
+      </key>
+      <value      
+        x = "480"      
+        y = "1440"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+    <entry>
+      <key      
+        class = "com.android.navigation.ActivityState"      
+        className = "com.example.ericjohns.elec3850_1.Splash_Screen">
+        <location        
+          idref = "point0"/>
+      </key>
+      <value      
+        x = "480"      
+        y = "0"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+    <entry>
+      <key      
+        class = "com.android.navigation.MenuState"      
+        xmlResourceName = "power__usage">
+        <location        
+          idref = "point0"/>
+      </key>
+      <value      
+        x = "1760"      
+        y = "4320"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+    <entry>
+      <key      
+        class = "com.android.navigation.ActivityState"      
+        className = "com.example.ericjohns.elec3850_1.View_Devices">
+        <location        
+          idref = "point0"/>
+      </key>
+      <value      
+        x = "500"      
+        y = "2860"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+    <entry>
+      <key      
+        class = "com.android.navigation.MenuState"      
+        xmlResourceName = "splash__screen">
+        <location        
+          idref = "point0"/>
+      </key>
+      <value      
+        x = "1760"      
+        y = "160"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+    <entry>
+      <key      
+        class = "com.android.navigation.MenuState"      
+        xmlResourceName = "view__devices">
+        <location        
+          idref = "point0"/>
+      </key>
+      <value      
+        x = "1768"      
+        y = "2860"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+    <entry>
+      <key      
+        class = "com.android.navigation.MenuState"      
+        xmlResourceName = "activity__main">
+        <location        
+          idref = "point0"/>
+      </key>
+      <value      
+        x = "1768"      
+        y = "1480"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+    <entry>
+      <key      
+        class = "com.android.navigation.ActivityState"      
+        className = "com.example.ericjohns.elec3850_1.Power_Usage">
+        <location        
+          idref = "point0"/>
+      </key>
+      <value      
+        x = "500"      
+        y = "4240"      
+        class = "com.android.navigation.Point"/>
+    </entry>
+  </locations>
+</navigationModel>

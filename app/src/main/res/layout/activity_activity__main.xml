@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_tree1"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.ericjohns.elec3850_1.Activity_Main"
+    android:id="@+id/Activity_Main">
+
+    <TextView
+        android:text="User Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/textView"
+        android:visibility="visible"
+        android:textColor="#ff000000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Devices"
+        android:id="@+id/button2_1"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="48dp"
+        android:textSize="30dp"
+        android:visibility="visible"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Power Usage"
+        android:id="@+id/button2_2"
+        android:layout_marginTop="48dp"
+        android:textSize="30dp"
+        android:layout_below="@+id/button2_1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Configs"
+        android:id="@+id/button2_3"
+        android:textSize="30dp"
+        android:layout_above="@+id/button2_6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Plan"
+        android:id="@+id/button2_5"
+        android:textSize="30dp"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/button2_2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="SSID:"
+        android:id="@+id/textView2"
+        android:layout_toRightOf="@+id/button2_3"
+        android:textSize="30dp"
+        android:layout_alignBottom="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:id="@+id/button2_6"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="30dp" />
+
+</RelativeLayout>

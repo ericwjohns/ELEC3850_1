@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flip It Off</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activity__main">Activity Main</string>
+    <string name="title_activity_view__devices">View Devices</string>
+    <string name="title_activity_power__usage">Power Usage</string>
+
+</resources>
